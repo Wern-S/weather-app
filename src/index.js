@@ -1,1 +1,3 @@
-console.log("Hello from src/index.js!");
+import { geoLocatedWeather } from './components/geoloc-weather.js'
+
+geoLocatedWeather();

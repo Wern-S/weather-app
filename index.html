@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
     <meta charset="UTF-8">
-    <title>Playground - JavaScript 101</title>
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
+
+
   <body>
-    <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
-      Open the console 🤓
-    </p>
 
-    <!-- Add some HTML in here -->
+    <div class="description">
+      <div class="description-location">
+      </div>
 
-    <script src="main.js"></script>
+      <div class="description-current-time">
+      </div>
+
+      <div class="description-summary">
+      </div>
+
+      <div class="description-icon">
+        <canvas id="icon" width="128" height="128"></canvas>
+      </div>
+    </div>
+
+    <div class="weather">
+      <div class="weather-temperature">
+      </div>
+
+      <div class="weather-wind">
+      </div>
+    </div>
+
+    <div class="coming-weather">
+        <p>What should I plan for the next hours?</p>
+        <ul id="next-hours"></ul>
+    </div>
+
+
+  <script src="../src/skycons.js"></script>
+  <script src="main.js"></script>
   </body>
+
 </html>
