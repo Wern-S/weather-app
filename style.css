@@ -40,7 +40,8 @@ li {
   margin-top: 16px;
 }
 
-.weather-wind {
+.weather-wind,
+.coming-weather {
   cursor: pointer;
 }
 
