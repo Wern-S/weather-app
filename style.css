@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,11,121,1) 0%, rgba(7,59,153,1) 5%, rgba(5,96,177,1) 44%, rgba(0,212,255,1) 100%);
+  font-family: sans-serif;
+  font-size: 3vh;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0px;
+  font-size: 2vh;
+}
+
+.coming-weather,
+.display-geoloc,
+.display-researched,
+.go-to-research,
+.next-hours,
+.researched,
+.weather-wind {
+  cursor: pointer;
+}
+
+.coming-weather,
+.current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description,
+.weather {
+  width: 42%;
+}
+
+.ask-for-choice {
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coming-weather {
+  padding-top: 24px;
+}
+
+.description-current-time {
+  padding: 20px 0px;
+}
+
+.description-location {
+  font-weight: 600;
+}
+
+.description-summary {
+  padding-bottom: 10px;
+}
+
+.display-geoloc {
+  margin-bottom: 16vh;
+}
+
+.geolocalized {
+  padding-top: 40px;
+}
+
+.go-to-research {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.researched {
+  text-align: center;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 16px;
+}

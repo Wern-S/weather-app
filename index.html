@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
     <meta charset="UTF-8">
-    <title>Playground - JavaScript 101</title>
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
+
+
   <body>
-    <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
-      Open the console 🤓
-    </p>
+    <div class="ask-for-choice centered">
+      <div class="display-geoloc"></div>
+      <div class="display-researched"></div>
+    </div>
 
-    <!-- Add some HTML in here -->
+    <div class="geolocalized">
+      <div class="current-weather">
+        <div class="description">
+          <div class="description-location"></div>
+          <div class="description-current-time"></div>
+          <div class="description-summary"></div>
+          <div class="description-icon">
+            <canvas id="icon" width="128" height="128"></canvas>
+          </div>
+        </div>
 
-    <script src="main.js"></script>
+        <div class="weather">
+          <div class="weather-temperature"></div>
+          <div class="weather-wind"></div>
+        </div>
+      </div>
+
+      <div class="coming-weather"></div>
+      <div class="go-to-research"></div>
+    </div>
+
+    <div class="researched centered">
+      <!-- TO IMPLEMENT -->
+    </div>
+
+  <script src="../src/javascript/style/skycons.js"></script>
+  <script src="main.js"></script>
   </body>
+
 </html>
