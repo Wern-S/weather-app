@@ -88,6 +88,6 @@ li {
 
 .weather {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-top: 16px;
 }
